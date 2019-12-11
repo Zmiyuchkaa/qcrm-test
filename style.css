@@ -1,0 +1,96 @@
+body {
+  background-image: url(images/flowers-bg\ copy.jpg);
+  background-blend-mode: color-burn;
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: 100%;
+  font-family: "Helvetica Neue", monospace;
+}
+
+@media (min-width: 601px) {
+  .main__card {
+    background-color: rgba(250, 247, 247, .65);
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* padding-top: 5%; */
+    padding: 5% 2%;
+  }
+}
+
+
+.main__card__logo {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: -23%;
+  left: 30%;
+}
+
+.main__card__name {
+  font-weight: 300;
+  font-size: 30pt;
+  text-align: center;
+  margin-bottom: -5%;
+}
+
+.main__card__text {
+  color: rgba(0, 0, 0, .5);
+  font-weight: 200;
+  text-align: center;
+  font-size: 15pt;
+}
+
+.main__card__input {
+  background-color: white;
+  border: black 1px solid;
+	padding: 12px 15px;
+  margin: 8px 8px 40px 8px;
+  display: block;
+  width: 480px;
+  color: rgba(0, 0, 0, .3);
+  font-weight: 300;
+  font-size: 16pt;
+}
+
+.main__card__input:hover {
+  border: #3e9ffd 1px solid;
+}
+
+.main__card__checkblock {
+  padding-left: 10px;
+}
+
+.main__card__checkblock__text {
+  color: #636363;
+  font-size: 13pt;
+  font-weight: 400;
+  padding: 5px 0 0 5px;
+}
+
+.main__card__button {
+  background-color: #3e9ffd;
+  width: 520px; 
+  color: white;
+  font-size: 16pt;
+  padding: 15px;
+  margin-top: 50px;
+  margin-left: 5px;
+  font-weight: 300;
+}
+
+.main__card__button:hover {
+  background-color: #58a8f8;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
